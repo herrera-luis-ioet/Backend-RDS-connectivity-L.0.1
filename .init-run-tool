@@ -1,0 +1,4 @@
+{
+    "command": "uvicorn main:app --reload",
+    "working_directory": "/home/kavia/workspace/Backend-RDS-connectivity-L.0.1/product_order_api"
+}

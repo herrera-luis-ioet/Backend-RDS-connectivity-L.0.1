@@ -37,6 +37,8 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+product_order_api/venv
+
 
 # Ignore all directories containing pyvenv.cfg
 **/pyvenv.cfg

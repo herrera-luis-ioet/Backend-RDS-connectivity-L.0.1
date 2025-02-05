@@ -1,0 +1,4 @@
+{
+    "command": "python3 -m pytest",
+    "working_directory": "/home/kavia/workspace/Backend-RDS-connectivity-L.0.1/tests"
+}
