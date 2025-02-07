@@ -30,7 +30,7 @@ def get_database_url() -> str:
     db_host = os.getenv("DB_HOST", "localhost")
     db_port = os.getenv("DB_PORT", "3306")
     db_name = os.getenv("DB_NAME", "product_order_db")
-    print("AQUi",db_user, db_password, db_host)
+
     return (
         f"mysql+pymysql://{db_user}:{db_password}@"
         f"{db_host}:{db_port}/{db_name}"
